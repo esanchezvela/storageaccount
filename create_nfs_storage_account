@@ -1,0 +1,6 @@
+az storage account create --name esvnfsstorage --resource-group esvhawestus 
+    --location westus  --sku  Premium_LRS 
+    --kind BlockBlobStorage  
+    --vnet-name  esvhawstus-vnet  
+    --subnet default 
+    --default-action deny
